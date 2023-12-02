@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <None Update="overlay\**\*">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <!-- Inclua seus arquivos de idioma na seção de conteúdo do projeto -->
+    <Content Include="languages/strings_pt.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="languages/strings_en.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="app-config.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="stages.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <!-- Adicione outros arquivos de idioma conforme necessário -->
+  </ItemGroup>
+
+  <Target Name="CopyResources" BeforeTargets="Build">
+    <Copy SourceFiles="@(None)" DestinationFolder="$(OutputPath)\%(RecursiveDir)" />
+  </Target>
+  
+  <ItemGroup>
+    <PackageReference Include="Discord.Net" Version="3.12.0" />
+    <PackageReference Include="Discord.Net.Commands" Version="3.12.0" />
+    <PackageReference Include="System.Data.SQLite" Version="1.0.118" />    
+  </ItemGroup>
+
+</Project>
