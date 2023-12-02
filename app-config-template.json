@@ -1,0 +1,11 @@
+{
+    "language": "en", //en or pt
+    "guildId": 0,
+    "clientId" : 0, 
+    "token" : "",
+    "player1RoleId": 0, //A roleId called player-1 in your discord
+    "player2RoleId": 0, //A roleId called player-2 in your discord
+    "player1ChannelId": 0, //A channelId that only player-1 role have access
+    "player2ChannelId": 0, //A channelId that only player-2 role have access
+    "overlayFullPath": ".\\overlay"    
+}

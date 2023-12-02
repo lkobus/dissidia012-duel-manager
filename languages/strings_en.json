@@ -1,0 +1,47 @@
+{    
+    "new_match_confirmation": "Match successfully configured. Players are already in the channel, continue with /tournament_next",
+    "blind_pick_start_message": "Next step initiated successfully",
+    "winners_setted": "Result confirmed successfully!",
+    "set_winner_message_for_winner": "<@{0}> Congratulations! You won the confrontation against <@{1}>, ggs!", //{0} winner, {1} loser
+    "set_winner_message_for_loser": "<@{0}> You did great, but not this time! You lost the confrontation against <@{1}>, ggs!", //{0} loser, {1} winner
+    "set_winner_result_message": "Round {0} finished! [{1}] {2} vs [{3}] {4}", //{0} round, {1} countPlayer1Wins {2} displayName1 {3} countPlayer2Wins {4} displayName2
+    
+    "blind_pick_character_choice_confirmation_message": "✅ Your character choice: {0}", //{0} character choice
+    
+    "coin_flip_winner_message": "<@{0}> You start in the banning phase due to automatic draw.", //{0} _discordPlayer
+    "coin_flip_loser_message": "⏳ Wait! The draw selected your opponent to start the map banning phase.", //{0} _discordPlayer
+    
+    "start_match_title_message": "🏆 Match Start {0}", //{0} _match
+    "start_match_description_message": "The match is about to begin! **Players can now head into group battle mode**, have a good match!", //{0} _match
+
+    "timer_is_over": "⏲️ Time's up!",
+
+
+    "blind_pick_map_choice_title": "🗺️ Choose a Map",
+    "blind_pick_map_choice_description": "The map you choose will be for the next match!",
+    "blind_pick_map_choice_place_holder": "Click to choose!",
+    "blind_pick_map_choice_confirmation_message" : "🗺️ You chose the map: {0}", //{0} stage selected
+    
+    "blind_pick_map_ban_title": "🗺️ Remove a Map",
+    "blind_pick_map_ban_description": "Choose a map you don't want to play in the next match. Your opponent will then choose one of the remaining maps.",
+    "blind_pick_map_ban_place_holder": "Choose a map",
+    "blind_pick_map_ban_confirmation_message": "🚫 You banned the map: {0}, your opponent will choose a map, please wait!", //{0} stage banned
+    
+    "blind_pick_map_ban_player_message": "<@{0}> You start in the banning phase for winning the last match.", //{0} _discordPlayer
+    "blind_pick_map_ban_player_wait_message": "⏳ Wait! Your opponent will ban a map due to the previous victory.",
+    
+    "blind_pick_character_pick_request_title_message": "[ROUND {0}] - Pick Selection", //{0} round
+    "blind_pick_character_pick_request_description_message": "{0}, you have {1} to choose the character you'll play.", //{0} user.Mention, {1} remaining timer
+    
+    "blind_pick_send_customization_title_message": "[Round {0}] - Customization/Build Phase", //{0} round
+    "blind_pick_send_customization_description_message": "You have {0} to start the match", //{0} pickEndTimeString
+    "blind_pick_finished": "✅ The pick phase has ended!",    
+    
+    "overlay_title_start_match": "Setting up an online room with players!",
+    "overlay_title_build_customization": "Customization",
+    "overlay_stage_blind_pick_started_title": "Round {0} Blind Pick Character Selection", //{0} _round
+    "overlay_title_map_ban_player_choosing_title": "{0} is banning a map", //{0} _displayName
+    "overlay_title_update_ban_choice_message": "{0} banned the map: {1}", //{0} = displayName, {1} = stage banned
+    "overlay_title_set_winner_message": "{0} won round {1}!", // {0} = displayName, {1} = _round    
+    "overlay_title_set_winner_at_end_of_set_message": "{0} won the match!", //{0} displayName
+}

@@ -1,0 +1,46 @@
+{
+    "new_match_confirmation": "Partida configurada com sucesso. Os jogadores já estão no canal, continue com /tournament_next",
+    "blind_pick_start_message": "Próxima etapa iniciada com sucesso",
+    "winners_setted": "Resultado confirmado com sucesso!",
+    "set_winner_message_for_winner": "<@{0}> Parabéns! Você venceu a confrontação contra <@{1}>, ggs!", //{0} vencedor, {1} perdedor
+    "set_winner_message_for_loser": "<@{0}> Você se saiu muito bem, mas não desta vez! Você perdeu a confrontação contra <@{1}>, ggs!", //{0} perdedor, {1} vencedor
+    "set_winner_result_message": "Rodada {0} finalizada! [{1}] {2} vs [{3}] {4}", //{0} rodada, {1} contagemVitóriasJogador1 {2} nomeExibição1 {3} contagemVitóriasJogador2 {4} nomeExibição2
+    
+    "blind_pick_character_choice_confirmation_message": "✅ Sua escolha de personagem: {0}", //{0} escolha de personagem
+    
+    "coin_flip_winner_message": "{0} Você começa na fase de banimento devido ao empate automático.", //{0} _discordPlayer
+    "coin_flip_loser_message": "⏳ Espere! O sorteio selecionou seu oponente para começar a fase de banimento de mapas.", //{0} _discordPlayer
+    
+    "start_match_title_message": "🏆 Início da Partida {0}", //{0} _match
+    "start_match_description_message": "A partida está prestes a começar! **Os jogadores agora podem entrar no modo de batalha em grupo**, tenham uma boa partida!", //{0} _match
+
+    "timer_is_over": "⏲️ Tempo esgotado!",
+
+    "blind_pick_map_choice_title": "🗺️ Escolha um Mapa",
+    "blind_pick_map_choice_description": "O mapa que você escolher será para a próxima partida! Você tem {0}",
+    "blind_pick_map_choice_place_holder": "Clique para escolher!",
+    "blind_pick_map_choice_confirmation_message" : "🗺️ Você escolheu o mapa: {0}", //{0} mapa selecionado
+    
+    "blind_pick_map_ban_title": "🗺️ Remova um Mapa",
+    "blind_pick_map_ban_description": "Escolha um mapa que você não deseja jogar na próxima partida. Seu oponente então escolherá um dos mapas restantes. Você tem {0} para selecionar o mapa",
+    "blind_pick_map_ban_place_holder": "Escolha um mapa",
+    "blind_pick_map_ban_confirmation_message": "🚫 Você baniu o mapa: {0}, seu oponente escolherá um mapa, por favor aguarde!", //{0} mapa banido
+    
+    "blind_pick_map_ban_player_message": "@{0} Você começa na fase de banimento por ter vencido a última partida.", //{0} _discordPlayer
+    "blind_pick_map_ban_player_wait_message": "⏳ Espere! Seu oponente banirá um mapa devido à vitória anterior.",
+    
+    "blind_pick_character_pick_request_title_message": "[RODADA {0}] - Seleção de Escolha", //{0} rodada
+    "blind_pick_character_pick_request_description_message": "{0}, você tem {1} para escolher o personagem que irá jogar.", //{0} user.Mention, {1} tempo restante
+    
+    "blind_pick_send_customization_title_message": "[Rodada {0}] - Fase de Customização/Construção", //{0} rodada
+    "blind_pick_send_customization_description_message": "Você tem {0} para começar a partida", //{0} pickEndTimeString
+    "blind_pick_finished": "✅ A fase de escolha terminou!",    
+    
+    "overlay_title_start_match": "Preparando uma sala online com jogadores!",
+    "overlay_title_build_customization": "Customização",
+    "overlay_stage_blind_pick_started_title": "Rodada {0} Seleção de Personagem no Modo Escondido", //{0} _rodada
+    "overlay_title_map_ban_player_choosing_title": "{0} está banindo um mapa", //{0} _displayName
+    "overlay_title_update_ban_choice_message": "{0} baniu o mapa: {1}", //{0} = displayName, {1} = mapa banido
+    "overlay_title_set_winner_message": "{0} venceu a rodada {1}!", // {0} = displayName, {1} = _rodada    
+    "overlay_title_set_winner_at_end_of_set_message": "{0} venceu a partida!", //{0} displayName
+}
